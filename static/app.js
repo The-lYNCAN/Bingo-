@@ -639,4 +639,7 @@ function myFunction() {
     var t = document.createTextNode("Coffee");
     y.appendChild(t);
     document.getElementById("myOl").appendChild(y);
-  }
+}
+function useless(){
+    console.log("this function is useless");
+}
