@@ -45,6 +45,8 @@ app.get('/', (req, res)=>{
 var order = [];
 
 //server starting
+
+const port_number = process.env.PORT || 8080
 const server = app.listen(9000)
 
 var time = 30;
